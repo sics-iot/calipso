@@ -17,9 +17,13 @@
 ## Description
 
 A more detailled of this contribution.
-You may cite your (CALIPSO-acknowledged) publications like this [1,2].
+You may cite publications like this [1,2,3].
 
-## Publications
+## CALIPSO Publications
 
-1. a first CALIPSO-acknowledged publication
-2. an other CALIPSO-acknowledged publication
+* [1] a first CALIPSO-acknowledged publication
+* [2] an other CALIPSO-acknowledged publication
+
+## Other Publications
+
+* [3] a publication that does not acknowledge CALIPSO
