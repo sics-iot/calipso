@@ -1,4 +1,4 @@
-# Title of the cntribution
+# Title of the contribution
 
 ## About
 
