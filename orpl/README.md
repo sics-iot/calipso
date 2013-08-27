@@ -22,9 +22,12 @@ RPL is a standard routing protocol for low-power IPv6 networks. In the context o
 
 The design of ORPL is partly based on our previous work on ORW [4] and on link estimation in dense networks [3].
 
-## Publications
+## CALIPSO Publications
 
-1. Simon Duquennoy, Olaf Landsiedel, and Thiemo Voigt. Let the Tree Bloom: Scalable Opportunistic Routing with ORPL. In Proceedings of the International Conference on Embedded Networked Sensor Systems (ACM SenSys 2013), Rome, Italy, November 2013.
-1. Simon Duquennoy and Olaf Landsiedel. Poster Abstract: Opportunistic RPL. In EWSN'13: Proceedings of the 10th European Conference on Wireless Sensor Networks, Ghent, Belgium, February 2013. Poster Abstract.
-1. Sébastien Dawans and Simon Duquennoy. On Link Estimation in Dense RPL Deployments. In Proceedings of the International Workshop on Practical Issues in Building Sensor Network Applications (IEEE SenseApp 2012), Clearwater, FL, USA, October 2012.
-1. Olaf Landsiedel, Euhanna Ghadimi, Simon Duquennoy, and Mikael Johansson. Low Power, Low Delay: Opportunistic Routing meets Duty Cycling. In Proceedings of the International Conference on Information Processing in Sensor Networks (ACM IPSN 2012), Beijing, China, April 2012.
+* [1] Simon Duquennoy, Olaf Landsiedel, and Thiemo Voigt. Let the Tree Bloom: Scalable Opportunistic Routing with ORPL. In Proceedings of the International Conference on Embedded Networked Sensor Systems (ACM SenSys 2013), Rome, Italy, November 2013.
+* [2] Simon Duquennoy and Olaf Landsiedel. Poster Abstract: Opportunistic RPL. In EWSN'13: Proceedings of the 10th European Conference on Wireless Sensor Networks, Ghent, Belgium, February 2013. Poster Abstract.
+* [3] Sébastien Dawans and Simon Duquennoy. On Link Estimation in Dense RPL Deployments. In Proceedings of the International Workshop on Practical Issues in Building Sensor Network Applications (IEEE SenseApp 2012), Clearwater, FL, USA, October 2012.
+
+## Other Publications
+
+* [4] Olaf Landsiedel, Euhanna Ghadimi, Simon Duquennoy, and Mikael Johansson. Low Power, Low Delay: Opportunistic Routing meets Duty Cycling. In Proceedings of the International Conference on Information Processing in Sensor Networks (ACM IPSN 2012), Beijing, China, April 2012.
