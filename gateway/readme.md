@@ -17,15 +17,16 @@
 
 ## Description
 
-This gateway offers an interface between HTTP requests and CoAP
+A gateway is a critical place that can be used in order to save energy
+[1,2]. This gateway offers an interface between HTTP requests and CoAP
 resources.  When an HTTP requests is received by the gateway, it's
 translated into a CoAP request. Then the gateway is going to lookup in
 the cache if the information is already available. If it is then the
 cached version is sent back as an answer and a communication to the
 wireless sensor network is avoided. If a cached version of the
-information is missing, a CoAP request is issued. When the result of the
-CoAP request is available, it's stored in the cache for later use and
-delivered to the client.
+information is missing, a CoAP request is issued.  When the result of
+the CoAP request is available, it's stored in the cache for later use
+and delivered to the client.
 
 We use Java to generate CoAP requests and receive HTTP requests. We use
 redis as a back-end to our cache.
@@ -38,8 +39,12 @@ use redis as a data store and plug new service around it.
 
 ## CALIPSO Publications
 
-* [1] Optimizing QoS in Wireless Sensors Networks Using a Caching
-  Platform Remy Leone, Paolo Medagliani and Jéremie Leguay
+* [1]  Rémy Léone, Jeremie Leguay, Paolo Medagliani  - “Optimizing QoS
+  in Wireless Sensors Networks Using a Caching Platform”, 2nd
+international conference on sensor networks (Sensornets 2013),
+Barcelone, Espagne, février 2013 
 
-* [2] Optimisation de la qualité de service par l’utilisation de mémoire
-  cache
+* [2] Optimisation de la qualité de service par l'utilisation de mémoire
+  cache, Rémy Léone, Jeremie Leguay, Paolo Medagliani, 15èmes Rencontres
+Francophones pour les Aspects Algorithmiques des Télécommunications,
+Algotel 2013,, Pornic, France, Mai 2013
