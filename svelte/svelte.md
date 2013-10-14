@@ -21,6 +21,7 @@ This repository contains the source code of SVELTE, the details of which are pro
 ## CALIPSO Publications
 
 [1] Shahid Raza, Linus Wallgren, Thiemo Voigt. SVELTE: Real-time Intrusion Detection in the Internet of Things. Ad Hoc Networks (Elsevier), 11(8), 2661-2674, November, 2013.
-[2] Linus Wallgren, Shahid Raza, and Thiemo Voigt. Routing Attacks and Countermeasures in the RPL-Based Internet of Things. International Journal of Distributed Sensor Networks, vol. 2013, Article ID 794326, 11 pages, 2013. doi:10.1155/2013/794326. (Impact Factor:  0.727)
+
+[2] Linus Wallgren, Shahid Raza, and Thiemo Voigt. Routing Attacks and Countermeasures in the RPL-Based Internet of Things. International Journal of Distributed Sensor Networks, vol. 2013, Article ID 794326, 11 pages, 2013. doi:10.1155/2013/794326.
 
 ## Other Publications
