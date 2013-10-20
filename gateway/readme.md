@@ -47,4 +47,4 @@ Barcelone, Espagne, février 2013
 * [2] Optimisation de la qualité de service par l'utilisation de mémoire
   cache, Rémy Léone, Jeremie Leguay, Paolo Medagliani, 15èmes Rencontres
 Francophones pour les Aspects Algorithmiques des Télécommunications,
-Algotel 2013,, Pornic, France, Mai 2013
+Algotel 2013, Pornic, France, Mai 2013
