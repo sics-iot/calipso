@@ -7,7 +7,7 @@
 * Author(s): Pietro Gonizzi, University of Parma, Italy
 * Affiliation(s): Department of Information Engineering, University of Parma
 * License: none
-* Location of the code: in this directory
+* Location of the code: https://github.com/pietrogonizzi/distributed-storage
 * Contiki version: 2.6
 * Intended CALIPSO scenario: Smart Parking, Smart Surveillance
 * Intended platforms: Tmote Sky
