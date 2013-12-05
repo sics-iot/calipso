@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Contiki80211_on_ArduinoDue", "Contiki80211_on_ArduinoDue.cproj", "{352B3818-6E4D-49A8-83DC-771C628F3904}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{352B3818-6E4D-49A8-83DC-771C628F3904}.Debug|ARM.ActiveCfg = Debug|ARM
+		{352B3818-6E4D-49A8-83DC-771C628F3904}.Debug|ARM.Build.0 = Debug|ARM
+		{352B3818-6E4D-49A8-83DC-771C628F3904}.Release|ARM.ActiveCfg = Release|ARM
+		{352B3818-6E4D-49A8-83DC-771C628F3904}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
