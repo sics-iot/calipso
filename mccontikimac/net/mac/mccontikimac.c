@@ -98,9 +98,6 @@ cc2420_get_channel(void);
 #define EDC_TICKS_TO_METRIC(edc) (uint16_t)((edc) / (CYCLE_TIME / 128))
 #endif
 
-/* Incoming data channel seed */
-extern volatile uint8_t rec_channel_index;
-
 #define ABS(x) (((x) > 0) ? (x) : -(x))
 
 #define BUSYWAIT_UNTIL(cond, max_time)                                  \
