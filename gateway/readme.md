@@ -7,7 +7,7 @@
 * Author(s): Rémy Léone, Paolo Medagliani 
 * Affiliation(s): Thales Communications & Security, LINCS
 * License: BSD licence
-* Location of the code: [Github](//github.com/sieben/calipso-gateway) 
+* Location of the code: [Github](//github.com/sieben/gateway-calipso) 
 * Contiki version: Any version implementing a CoAP version compatible
   with Californium. 
 * Intended CALIPSO scenario: Any requiring CoAP/HTTP requests.
