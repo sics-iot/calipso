@@ -1,8 +1,8 @@
-# MC-ContikiMAC
+# MC-ContikiMAC (MiCMAC)
 
 ## About
 
-* Short description: source code of MC-ContikiMAC, a Multi-Channel extension of ContikiMAC
+* Short description: source code of MiCMAC, a Multi-Channel extension of ContikiMAC
 * Contact: Beshr Al Nahas <beshr@sics.se>
 * Author(s): Beshr Al Nahas, SICS
 * Affiliation(s): SICS Swedish ICT AB
@@ -16,7 +16,7 @@
 
 ## Description
 
-MC-ContikiMAC follows a channel-hopping approach integrated in low-power listening.
+MiCMAC follows a channel-hopping approach integrated in low-power listening.
 It aims at increasing robustness under external and internal interference.
 Every node wakes up periodically and checks for activity on the medium.
 Every wakeup happens on a different channel, based on a pseudo-random hopping sequence.
@@ -25,11 +25,11 @@ Neighbors that are not yet discovered are reached through strobing over all used
 
 ## Implementation
 
-MC-ContikiMAC is implemented as a seperate mac protocol, that can be added to existing applications by changing the configuration of the NETSTACK_CONF_RDC to mccontikimac_driver and recompiling with the extra source files.
+MiCMAC is implemented as a seperate mac protocol, that can be added to existing applications by changing the configuration of the NETSTACK_CONF_RDC to mccontikimac_driver and recompiling with the extra source files.
 
 The implementation is available under (net/mac) and consists of the following files
 
-* mccontikimac.c, .h: source code of MC-ContikiMAC.
+* mccontikimac.c, .h: source code of MiCMAC.
 * mccontikimac-hopseq.h: definition of the channel hopping sequences.
 * mcphase.c, .h: functionality for phase-lock optimization with channel information.
 * csma.c: slightly modified csma layer to make the back-off time proportional to number of channels.
@@ -43,6 +43,6 @@ The implementation is available under (net/mac) and consists of the following fi
 
 ## Usage example
 
-A simple example of how to use MC-ContikiMAC is available under "rime".
-The included Makefile and project-conf.h are good pointers to how to configure MC-ContikiMAC with your application.
+A simple example of how to use MiCMAC is available under "rime".
+The included Makefile and project-conf.h are good pointers to how to configure MiCMAC with your application.
 
