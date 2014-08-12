@@ -1,6 +1,7 @@
-CONTIKI = ../../contiki2.7
+CONTIKI = ../../../contiki
 CONTIKI_PROJECT = example-unicast
 MCMACDIR=..
+PROJECTDIRS += $(MCMACDIR) $(MCMACDIR)/timer32bit
 TARGET?=sky
 
 ifdef PERIOD
@@ -34,7 +35,7 @@ BC_RF_CHANNEL ?= 20
 CFLAGS += -DCMD_BC_RF_CHANNEL=$(BC_RF_CHANNEL)
 
 
-PAN_ID ?= 0xABCD
+PAN_ID ?= 0xbbbb
 CFLAGS += -DCMD_PAN_ID=$(PAN_ID)
 
 all: $(CONTIKI_PROJECT)
@@ -42,7 +43,7 @@ all: $(CONTIKI_PROJECT)
 include $(CONTIKI)/Makefile.include
 
 cooja:
-	ant run -f $(CONTIKI)/tools/cooja/build.xml 
+	ant run -f $(CONTIKI)/tools/cooja/build.xml
 	
 %.exe: %.sky
 	cp $*.sky $*.exe
