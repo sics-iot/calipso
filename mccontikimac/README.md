@@ -43,6 +43,11 @@ The implementation is available under (net/mac) and consists of the following fi
 
 ## Usage example
 
-A simple example of how to use MiCMAC is available under "rime".
+* A simple example of how to use MiCMAC is available under "rime".
 The included Makefile and project-conf.h are good pointers to how to configure MiCMAC with your application.
 
+* A simple UDP/RPL/IPv6 example is available also
+
+## Note for Cooja
+
+There is a bug in Cooja multichannel support that causes many valid transimissions to be ignored be the receiver and that causes interference between different channels sometime.
