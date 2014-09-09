@@ -1,8 +1,8 @@
-# MC-ContikiMAC (MiCMAC)
+# MiCMAC, a Channel-Hopping extension of ContikiMAC
 
 ## About
 
-* Short description: source code of MiCMAC, a Multi-Channel extension of ContikiMAC
+* Short description: source code of MiCMAC, a Channel-Hopping extension of ContikiMAC
 * Contact: Beshr Al Nahas <beshr@sics.se>
 * Author(s): Beshr Al Nahas, SICS
 * Affiliation(s): SICS Swedish ICT AB
