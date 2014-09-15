@@ -21,9 +21,8 @@ protocol for WSNs. RAWMAC is an extension of ContikiMAC which allows nodes of a 
 The wake-up intervals of the nodes, based on the current RPL topology, are dynamically aligned, so that the delay for data collection is minimized.
 
 RAWMAC has been published at the 2014 International Workshop on the GReen
-Optimized Wireless Networks (GROWN 2014), in conjunction with the 10th IEEE Inter-
-national Conference on Wireless and Mobile Computing, Networking and Communica-
+Optimized Wireless Networks (GROWN 2014), in conjunction with the 10th IEEE International Conference on Wireless and Mobile Computing, Networking and Communica-
 tions (WiMob 2014), Larnaca, Cyprus, October 2014.
 
 The code is fully integrated in the calipso-integrated repository.
-In order to comiple a Contiki application with RAWMAC, you normally need to activate it in your application project-conf.h.
+In order to compile a Contiki application with RAWMAC, you need to activate it in your application project-conf.h.
