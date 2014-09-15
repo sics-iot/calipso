@@ -1,4 +1,4 @@
-# Distributed data storage
+# RAWMAC
 
 ## About
 
@@ -25,7 +25,5 @@ Optimized Wireless Networks (GROWN 2014), in conjunction with the 10th IEEE Inte
 national Conference on Wireless and Mobile Computing, Networking and Communica-
 tions (WiMob 2014), Larnaca, Cyprus, October 2014.
 
-## CALIPSO Publications
-
-* [1] P. Gonizzi, G. Ferrari, P. Medagliani and J. Leguay, Data Storage and Retrieval with RPL Routing. In Proceedings of the 9th International Wireless Communications & Mobile Computing Conference (IWCMC 2013), Cagliari, Italy, July 2013.
-* [2] P. Gonizzi, G. Ferrari, J. Leguay and P. Medagliani, , "Distributed Data Storage and Retrieval Schemes in RPL/IPv6-based networks'' chapter contribution in ``Wireless Sensor Networks: From Theory to Applications''. edited by I. M. M. El Emary and S. Ramakrishnan CRC Press, Taylor and Francis Group, September 2013.
+The code is fully integrated in the calipso-integrated repository.
+In order to comiple a Contiki application with RAWMAC, you normally need to activate it in your application project-conf.h.
