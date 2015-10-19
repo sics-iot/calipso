@@ -3,7 +3,7 @@
 ## About
 
 * Short description: source code of MiCMAC, a Channel-Hopping extension of ContikiMAC
-* Contact: Beshr Al Nahas <beshr@sics.se>
+* Contact: Beshr Al Nahas <beshr@sics.se> (now: beshr@chalmers.se)
 * Author(s): Beshr Al Nahas, SICS
 * Affiliation(s): SICS Swedish ICT AB
 * License: BSD http://www.opensource.org/licenses/bsd-license.php
